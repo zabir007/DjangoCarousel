@@ -6,18 +6,18 @@ from cloudinary.models import CloudinaryField
 
 class Slider(models.Model):
     thumbnail = CloudinaryField(folder="carousel/")
-    tittle = models.TextField()
+    title = models.TextField()
     descp = models.TextField()
 
 class Feature(models.Model):
     thumbnail = CloudinaryField(folder="carousel/")
-    tittle = models.TextField()
+    title = models.TextField()
     descp = models.TextField()
 
 
 class Another(models.Model):
-    imagefield = CloudinaryField(folder="carousel/")
-    tittle = models.TextField()
+    thumbnail = CloudinaryField(folder="carousel/")
+    title = models.TextField()
     descp = models.TextField()
 
 

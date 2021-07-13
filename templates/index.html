@@ -88,7 +88,7 @@
           <div class="container">
             <div class="carousel-caption text-start">
               <h1> {{ slide.title }}</h1>
-              <p>{{ slide.description}}</p>
+              <p>{{ slide.descp }}</p>
               <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
             </div>
           </div>
@@ -122,7 +122,7 @@
             <img src="{{ ano.thumbnail.url }}" class="bd-placeholder-img rounded-circle" height="100px" width="100px"
               alt="">
             <h2>{{ ano.title }}</h2>
-            <p>{{ ano.description }}</p>
+            <p>{{ ano.descp }}</p>
 
           </div><!-- /.col-lg-4 -->
           {% endfor %}
@@ -137,7 +137,7 @@
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading"><span class="text-muted">{{ fet.title }} </span></h2>
-            <p class="lead">{{ fet.description }}</p>
+            <p class="lead">{{ fet.descp }}</p>
           </div>
           <div class="col-md-5 order-md-1">
             <img src="{{ fet.thumbnail.url }}"
